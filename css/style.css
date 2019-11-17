@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Miltonian+Tattoo&display=swap');
+
+body {
+	font-family: 'Poiret One', cursive;
+	width: 85%;
+	height: 100vh;
+	margin: 0 auto;
+	color: #380512;
+}
+
+header {
+	min-height: 20vh;
+	text-align: center;
+/*	background-image: url('qs-header.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;*/
+  	background-color: black;
+/*  	background-position: center center;*/
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 1% 5%;
+}
+
+h1 {
+	color: black;
+	font-size: 58px;
+	text-shadow:
+		-1px -1px 0 #b7c7c7,
+		1px -1px 0 #b7c7c7,
+		-1px 1px #b7c7c7,
+		1px 1px 0 #b7c7c7;
+	letter-spacing: 3px;
+	line-height: 110%;
+	font-family: 'Miltonian Tattoo', cursive;
+}
+
+h2 {
+	font-size: 28px;
+	padding-bottom: 5px;
+	border-bottom: 4px double black;
+	padding-top: 5px;
+	border-top: 4px double black;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #453f40;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	margin: 20px auto 5px auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.about {
+	width: 80%;
+	margin: 10px auto 25px auto;
+}
+
+img {
+	width: 60%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.user-flow {
+	text-align: center;
+}
